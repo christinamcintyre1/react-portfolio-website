@@ -37,7 +37,7 @@ const Currentwork = () => {
                 <ul className='currentwork__list'>
                     <li>
                         <BiCheck className='current__list-icon'/>
-                        <p>Personal Website</p>
+                        <p>Personal Website Christinamcintyre.com</p>
                         </li>
                         <li>
                         <BiCheck className='current__list-icon'/>
