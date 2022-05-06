@@ -1,3 +1,6 @@
+portfoliojsx. swtiched to dynamically coding what I want it to do, not what I want it to display.
+{title} {id}
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
