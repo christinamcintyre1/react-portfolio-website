@@ -23,7 +23,19 @@
         margin-bottom: 2rem;
         color: var(--color-primary)
     }
+.experience__head {
+    background:var(--color-primary);
+    padding: 2rem;
+    border-radius: 0 0 2rem 2rem;
+    box-shadow: 0 2rem 1 rem rgba(0, 0, 0, 0.1);
+}
 
+    .experience__head h3 {
+        color: var(--color-bg);
+        font-size: 1rem;
+        text-align: center;
+    }
+    
 .experience__content {
     display: grid;
     grid-template-columns: 1fr 1fr;
