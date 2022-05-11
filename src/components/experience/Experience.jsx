@@ -5,7 +5,7 @@ import { BiCheck } from "react-icons/bi";
 const Experience = () => {
   return (
     <section id="experience">
-      <h5>My Experience</h5>
+      
       <h2>What Skills I Have</h2>
 
       <div className="container experience__container">

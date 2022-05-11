@@ -30,8 +30,8 @@ const data = [
 const Portfolio = () => {
   return (
     <section id="portfolio">
-      <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
+     
 
       <div className='container portfolio__container'>
         {
@@ -43,7 +43,7 @@ const Portfolio = () => {
                 </div>
                 <h3>{title}</h3>
                 <div className='portfolio__item-cta'>
-                  <a href={github} className='btn btn-primary' target='_blank'><FaGithub className='portfolio__item-icon' /></a>
+                  <a href={github} className='portfolio__item-btn' target='_blank'><FaGithub className='portfolio__item-icon' /></a>
                 </div>
               </article>
             )

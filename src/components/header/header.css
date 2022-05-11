@@ -5,6 +5,7 @@ header {
 }
 h1, h2 {
     color: var(--color-light);
+    text-shadow: 2px 2px 2px var(--color-bg-variant);
     font-weight: bold;
 }
 .header__container {

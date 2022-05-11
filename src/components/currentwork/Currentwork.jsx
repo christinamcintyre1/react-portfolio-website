@@ -5,7 +5,7 @@ import { BiCheck } from 'react-icons/bi'
 const Currentwork = () => {
   return (
 <section id='currentwork'> 
-    <h5>Current Reads</h5>
+    
     <h2>What I'm Working On</h2>
 
     <div className='container currentwork__container'>

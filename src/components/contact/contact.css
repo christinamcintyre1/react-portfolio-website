@@ -48,7 +48,7 @@ input, textarea {
     width: 100%;
     padding: 1.5rem;
     border-radius: 0.5rem;
-    background:transparent;
+    background: #ffffff6b;
     border: 2px solid var(--color-primary);
     resize: none;
     color:var(--color-primary);
