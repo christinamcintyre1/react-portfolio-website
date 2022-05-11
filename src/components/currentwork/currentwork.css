@@ -12,12 +12,6 @@
     transition: var(--transition);
 }
 
-.currentwork:hover {
-    background: transparent;
-    border-color: var(--color-primary-variant);
-    cursor: default;
-}
-
 .currentwork__head {
     background: var(--color-primary);
     padding: 2rem;
@@ -26,7 +20,7 @@
 }
 
 .currentwork__head h3 {
-    color: var(--color-bg);
+    color: var(--color-white);
     font-size: 1rem;
     text-align: center;
 }

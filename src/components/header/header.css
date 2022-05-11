@@ -3,7 +3,10 @@ header {
     padding-top: 7rem;
     overflow: hidden;
 }
-
+h1, h2 {
+    color: var(--color-light);
+    font-weight: bold;
+}
 .header__container {
     text-align: center;
     height: 100%;
@@ -18,8 +21,10 @@ header {
 }
 
 .header__socials {
+    color: var(--color-light);
     display: flex;
     flex-direction: column;
+    font-size: 3rem;
     align-items: center;
     gap: 0.8rem;
     position: absolute;
@@ -46,13 +51,13 @@ header {
     padding: 5rem 1.5rem 1.5rem 1.5rem;
 }
 
-.scroll__down {
+.bottom {
     position: absolute;
     right: -2.3rem;
     bottom: 5rem;
     transform: rotate(90deg);
     font-weight: 300;
-    font-size: 0.9rem;
+    font-size: 1.2rem;
 }
 
 @media screen and (max-width: 1024px) {
@@ -64,7 +69,7 @@ header {
     header {
         height: 100vh;
     }
-.header__socials, .scroll__down {
+.header__socials, .bottom {
     display: none;
 }
 }

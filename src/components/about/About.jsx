@@ -1,7 +1,6 @@
 import React from 'react'
 import './about.css'
 import Christina from '../../assets/christina_deer.jpeg'
-import { FaAward } from 'react-icons/fa'
 
 const About = () => {
   return (
@@ -16,7 +15,7 @@ const About = () => {
           </div>
         </div>
 
-        <div className="about_content">
+        {/* <div className="about_content">
           <div className="about__cards">
 
             <article className='about__card'>
@@ -30,12 +29,13 @@ const About = () => {
             </article>
 
 
+          </div> */}
+          <div className="about__content p">
+          <p>I started working for Walgreens as a cashier and from there, I worked my way up to Store Manager. I enjoyed my time at Walgreens for 21+ years, meeting new people, working in teams, and solving problems; however, I desired a challenge that Walgreens was no longer providing me. That's when I started learning software development and haven't looked back! I began by earning certificates in HTML and CSS. Most recently earned the Professional Certificate in Coding with MERN from MIT in April 2022. When I am not coding you can find me hiking with my boyfriend, playing with my cat and dog, or gardening. </p>
           </div>
-          <p>In this section is where I want to list things I do for fun and relaxation. Cats, dogs and walks! oh and gardening,guilty pleasure Real Housewives??, </p>
-
           <a href="#contact" className='btn btn-primary'>Contact Me</a>
         </div>
-      </div>
+      
     </section>
   )
 }

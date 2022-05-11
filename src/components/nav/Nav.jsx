@@ -15,13 +15,13 @@ const Nav = () => {
 
       <a href="#about" onClick={() => setActiveNav("#about")} className={activeNav ==='#about' ? 'active' : ''}><AiOutlineUser/></a>
 
-      <a href="#experience" onClick={() => setActiveNav("#experience")} className={activeNav ==='experience' ? 'active' : ''}><RiServiceLine/></a>
+      <a href="#experience" onClick={() => setActiveNav("#experience")} className={activeNav ==='#experience' ? 'active' : ''}><RiServiceLine/></a>
      
-      <a href="#portfolio" onClick={() => setActiveNav("#portfolio")} className={activeNav ==='portfolio' ? 'active' : '' }><BiBook/></a>
+      <a href="#portfolio" onClick={() => setActiveNav("#portfolio")} className={activeNav ==='#portfolio' ? 'active' : '' }><BiBook/></a>
 
-      <a href="#contact" onClick={() => setActiveNav("#contact")} className={activeNav ==='contact' ? 'active' : ''} ><BiMessageSquareDetail/></a>
+      <a href="#contact" onClick={() => setActiveNav("#contact")} className={activeNav ==='#contact' ? 'active' : ''} ><BiMessageSquareDetail/></a>
 
-      <a href="#currentwork" onClick={() => setActiveNav("#currentwork")} className={activeNav ==='currentwork' ? 'active' : ''} ><BiMessageSquareDetail /></a>
+      <a href="#currentwork" tooltip='Current Reads' onClick={() => setActiveNav("#currentwork")} className={activeNav ==='#currentwork' ? 'active' : ''} ><BiMessageSquareDetail /></a>
 </nav>
   )
 }

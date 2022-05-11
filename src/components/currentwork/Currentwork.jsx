@@ -25,7 +25,7 @@ const Currentwork = () => {
                         </li>
                         <li>
                         <BiCheck className='current__list-icon'/>
-                        <p>Road To React. Robin Weiruch</p>
+                        <p>Burnout: The Secrect to Unlocking the Stress Cycle. Emily Nagoski </p>
                         </li>
                 </ul>
         </article>
@@ -45,7 +45,7 @@ const Currentwork = () => {
                         </li>
                         <li>
                         <BiCheck className='current__list-icon'/>
-                        <p>Road To React. Robin Weiruch</p>
+                        <p>Created A Search that hit Hacker News API</p>
                         </li>
                 </ul>
         </article>
