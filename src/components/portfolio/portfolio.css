@@ -4,7 +4,11 @@
     height: auto;
     gap: 2.5rem;
 }
-
+#portfolio > h2 {
+    color: var(--color-light);
+    text-shadow: 2px 2px 2px var(--color-bg-variant);
+    font-weight: bold;
+}
 .portfolio__item {
     background: var(--color-bg-variant);
     padding: 1.2rem;
@@ -21,7 +25,7 @@
     display: inline-block;
     background-color: white;
     color: var(--color-primary);
-    padding: 0.75rem 1.2rem;
+    padding: 0.5rem 1rem;
     border-radius: 0.4rem;
     cursor: pointer;
     border: 1px solid grey;
@@ -33,12 +37,12 @@
 .portfolio__item-icon {
     color: var(--color-bg-variant);
     font-size: 50px;
+
+transition: var(--transition);
     margin-top: 5px;
 }
-.portfolio__item-cta {
-    display: flex;
-    gap: 1rem;
-    margin-bottom: 1rem;
+.portfolio__item-icon:hover {
+    transform:rotate(25deg);
 }
 
 @media screen and (max-width: 1024px) {

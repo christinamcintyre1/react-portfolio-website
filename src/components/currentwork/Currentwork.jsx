@@ -43,10 +43,7 @@ const Currentwork = () => {
                         <BiCheck className='current__list-icon'/>
                         <p>GraphBook. Building a Facebook like app with GraphQL and React.</p>
                         </li>
-                        <li>
-                        <BiCheck className='current__list-icon'/>
-                        <p>Created A Search that hit Hacker News API</p>
-                        </li>
+                      
                 </ul>
         </article>
         </div>

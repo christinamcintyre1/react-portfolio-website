@@ -5,7 +5,7 @@ import { BiCheck } from "react-icons/bi";
 const Experience = () => {
   return (
     <section id="experience">
-      
+
       <h2>What Skills I Have</h2>
 
       <div className="container experience__container">
@@ -38,7 +38,8 @@ const Experience = () => {
                 <small className="text-light">Beginner</small>
               </div>
             </li>
-
+          </ul>
+          <ul className="experience__list">
             <li>
               <BiCheck className="experience__details-icon" />
               <div>
@@ -62,9 +63,9 @@ const Experience = () => {
             </li>
           </ul>
         </article>
-      
 
-  
+
+
         <article className="experience">
           <div className="experience__head">
             <h3>Backend Development</h3>
@@ -86,8 +87,8 @@ const Experience = () => {
                 <small className="text-light">Beginner</small>
               </div>
             </li>
-    </ul>
-    <ul className="experience__list">
+          </ul>
+          <ul className="experience__list">
             <li>
               <BiCheck className="experience__details-icon" />
               <div>
@@ -103,7 +104,7 @@ const Experience = () => {
                 <small className="text-light">Beginner</small>
               </div>
             </li>
-         
+
           </ul>
         </article>
       </div>

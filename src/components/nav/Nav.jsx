@@ -11,17 +11,21 @@ const Nav = () => {
   const [activeNav, setActiveNav] = useState('#')
   return (
     <nav>
-      <a href="#" onClick={() => setActiveNav("#")} className={activeNav ==='#' ? 'active' : ''}><AiOutlineHome/></a>
+      <a href="#" data-toggle="tooltip" title="Home" onClick={() => setActiveNav("#")} className={activeNav ==='#' ? 'active' : ''}><AiOutlineHome/></a>
 
-      <a href="#about" onClick={() => setActiveNav("#about")} className={activeNav ==='#about' ? 'active' : ''}><AiOutlineUser/></a>
+      <a href="#about" data-toggle="tooltip" title="About Me" onClick={() => setActiveNav("#about")} className={activeNav ==='#about' ? 'active' : ''}><AiOutlineUser/></a>
 
-      <a href="#experience" onClick={() => setActiveNav("#experience")} className={activeNav ==='#experience' ? 'active' : ''}><RiServiceLine/></a>
-     
-      <a href="#portfolio" onClick={() => setActiveNav("#portfolio")} className={activeNav ==='#portfolio' ? 'active' : '' }><BiBook/></a>
+      <a href="#experience" data-toggle="tooltip" title="Experience" onClick={() => setActiveNav("#experience")} className={activeNav ==='#experience' ? 'active' : ''}><RiServiceLine/></a>
 
-      <a href="#contact" onClick={() => setActiveNav("#contact")} className={activeNav ==='#contact' ? 'active' : ''} ><BiMessageSquareDetail/></a>
+      <a href="#currentwork" data-toggle="tooltip" title="CurrentWork" onClick={() => setActiveNav("#currentwork")} className={activeNav ==='#currentwork' ? 'active' : ''} ><BiMessageSquareDetail />
+      
+      </a>
 
-      <a href="#currentwork" tooltip='Current Reads' onClick={() => setActiveNav("#currentwork")} className={activeNav ==='#currentwork' ? 'active' : ''} ><BiMessageSquareDetail /></a>
+      <a href="#portfolio" data-toggle="tooltip" title="Portfolio" onClick={() => setActiveNav("#portfolio")} className={activeNav ==='#portfolio' ? 'active' : '' }><BiBook/></a>
+
+      <a href="#contact" data-toggle="tooltip"  title="Contact" onClick={() => setActiveNav("#contact")} className={activeNav ==='#contact' ? 'active' : ''} ><BiMessageSquareDetail/></a>
+
+   
 </nav>
   )
 }

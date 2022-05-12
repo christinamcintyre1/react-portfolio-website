@@ -12,7 +12,11 @@
     display: grid;
     place-items: center;
 }   
-
+#about > h2 {
+    color: var(--color-light);
+    text-shadow: 2px 2px 2px var(--color-bg-variant);
+    font-weight: bold;
+}
 .about__me-image {
     border-radius: 2rem;
     overflow:hidden;
