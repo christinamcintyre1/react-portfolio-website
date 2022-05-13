@@ -11,7 +11,7 @@ const data = [
   {
     id: 1,
     image: website,
-    title: 'This is my personal webite. This will be a constantly updated website. I did not use create-react-app for this project. I wanted to make a site from scratch without using any tooling help. I used React Icons library for the icons. ',
+    title: 'I did not use create-react-app for this project as I wanted to make a ReactJS site from scratch without any tooling help. I used React Icons library and EmailJS. I made reusable variables in the CSS file to make the colors on the site more uniform. React useState and useRef are used for state management on the NavBar and the contact form. ',
     github: 'https://github.com/christinamcintyre1/react-portfolio-website',
   },
   {
