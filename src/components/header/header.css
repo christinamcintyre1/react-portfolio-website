@@ -14,8 +14,9 @@ h1, h2 {
 }
 
 .cta-icon {
-    font-size: 1.rem;
-    color: var(--color-bg-variant); 
+padding: 1px;
+    font-size: 2rem;
+    color: var(--color-light); 
 }
 
 
@@ -57,14 +58,6 @@ h1, h2 {
     padding: 5rem 1.5rem 1.5rem 1.5rem;
 }
 
-.bottom {
-    position: absolute;
-    right: -2.3rem;
-    bottom: 5rem;
-    transform: rotate(90deg);
-    font-weight: 300;
-    font-size: 1.2rem;
-}
 
 @media screen and (max-width: 1024px) {
     header {
