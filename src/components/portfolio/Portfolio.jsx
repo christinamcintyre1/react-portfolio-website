@@ -1,5 +1,6 @@
 import React from 'react'
 import './portfolio.css'
+import website from '../../assets/website.jpeg'
 import hackerstories from '../../assets/hackerstories.jpg'
 import bustrackerfile from '../../assets/bustrackerfile.jpeg'
 import tasktracker from '../../assets/tasktracker.jpg'
@@ -9,18 +10,24 @@ import { FaGithub } from 'react-icons/fa'
 const data = [
   {
     id: 1,
+    image: website,
+    title: 'This is my personal webite. This will be a constantly updated website. I did not use create-react-app for this project. I wanted to make a site from scratch without using any tooling help. I used React Icons library for the icons. ',
+    github: 'https://github.com/christinamcintyre1/react-portfolio-website',
+  },
+  {
+    id: 2,
     image: hackerstories,
     title: 'SPA built using Create-React-App. I created a search bar that return reults from a third-party API, Hacker News. The search bar will start returning results after the first 3 letters are entered into the search bar. It also return the number of comments associated with each article as well as the ability to delete articles from returned results.',
     github: "https://github.com/christinamcintyre1/hacker-stories",
   },
   {
-    id: 2,
+    id: 3,
     image: tasktracker,
     title: 'Task Trasker App. App I built using JavaScript, CSS, HTML, and React.js. You can add and delete tasks, and mark them as complete. I deployed the app to Heroku. The url is to-do-testing.herokuapp.com.',
-    github: "https://github.com/christinamcintyre1/react-todo"
+    github: "https://github.com/christinamcintyre1/react-todo",
   },
   {
-    id: 3, 
+    id: 4, 
     title: 'BusTracker App. This is one of my first projects at MIT. We were tasked with creating a web application that would allow users to track their bus routes and times. We hit the mapbox.com API to get the map image as well as the latitude/longitude coordinates of the bus stops.' ,
     image: bustrackerfile ,
     github: "https://github.com/christinamcintyre1/bustrackermap"

@@ -4,8 +4,7 @@
     gap: 3rem;
 }
 #currentwork > h2 {
-    color: var(--color-light);
-    text-shadow: 2px 2px 2px var(--color-bg-variant);
+    color: rgb(71, 123, 77);
     font-weight: bold;
 }
 .currentwork {

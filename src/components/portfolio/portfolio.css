@@ -5,8 +5,8 @@
     gap: 2.5rem;
 }
 #portfolio > h2 {
-    color: var(--color-light);
-    text-shadow: 2px 2px 2px var(--color-bg-variant);
+    color: rgb(71, 123, 77);
+  
     font-weight: bold;
 }
 .portfolio__item {
@@ -18,6 +18,7 @@
 
 .portfolio__item-image {
     border-radius: 1.5rem;
+    
     overflow: hidden;
 }
 .portfolio__item-btn {

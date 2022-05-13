@@ -4,8 +4,7 @@ header {
     overflow: hidden;
 }
 h1, h2 {
-    color: var(--color-light);
-    text-shadow: 2px 2px 2px var(--color-bg-variant); 
+    color: rgb(71, 123, 77);
     font-weight: bold;
 }
 .header__container {
@@ -15,7 +14,8 @@ h1, h2 {
 }
 
 .cta-icon {
-    font-size: 1.5rem;
+    font-size: 1.rem;
+    color: var(--color-bg-variant); 
 }
 
 
