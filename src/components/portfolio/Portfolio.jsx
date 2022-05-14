@@ -50,7 +50,7 @@ const Portfolio = () => {
                 </div>
                 <h3>{title}</h3>
                 <div className='portfolio__item-cta'>
-                  <a href={github} className='portfolio__item-btn' target='_blank'><FaGithub className='portfolio__item-icon' /></a>
+                  <a href={github} className='portfolio__item-btn' target='_blank' rel="noreferrer"><FaGithub className='portfolio__item-icon' /></a>
                 </div>
               </article>
             )

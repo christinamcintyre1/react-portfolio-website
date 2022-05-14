@@ -2,7 +2,6 @@ import React from 'react'
 import CV from '../../assets/CV.pdf'
 import { MdOutlineMailOutline } from 'react-icons/md'
 import {AiOutlineCloudDownload} from 'react-icons/ai'
-import { GrDocumentDownload } from 'react-icons/gr'
 
 const CTA = () => {
   return (
