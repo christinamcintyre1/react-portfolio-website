@@ -28,7 +28,7 @@ const Contact = () => {
             <MdOutlineEmail className='contact__option-icon' />
             <h4>Email</h4>
             <h5>christinamcintyre1@gmail.com</h5>
-            <a href='mailto:christinamcintyre1@gmail.com' target="_blank" rel="noreferrer">Send a Message</a>
+            <a href='mailto:christinamcintyre1@gmail.com' target="_blank" rel="noopener noreferrer">Send a Message</a>
             </article>
             </div>
 
@@ -39,7 +39,7 @@ const Contact = () => {
               <textarea name="message" rows="7" placeholder="Your Message" required />
               <button type="submit" className='btn btn-primary'>Send Message</button>
             </form>
-            <a href='#header' className='top'>Top</a>
+            
         </div>
       </section>
   )
