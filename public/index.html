@@ -21,6 +21,7 @@
       initialize the SDK after all desired features are loaded, set useEmulator to false
       to avoid connecting the SDK to running emulators.
     -->
+
     <script defer src="/__/firebase/init.js?useEmulator=true"></script>
 
     <style media="screen">
@@ -46,7 +47,23 @@
       <a target="_blank" href="https://firebase.google.com/docs/hosting/">Open Hosting Documentation</a>
     </div>
     <p id="load">Firebase SDK Loading&hellip;</p>
+<script>
+  import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
 
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyA-IIJmh6Nlk9vbKlQeoRtFrAwxgmSc8M8",
+  authDomain: "auth-f9e4c.firebaseapp.com",
+  projectId: "auth-f9e4c",
+  storageBucket: "auth-f9e4c.appspot.com",
+  messagingSenderId: "717249104782",
+  appId: "1:717249104782:web:28fa934e9a5cbcdfaa72df"
+};
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+</script>
     <script>
       document.addEventListener('DOMContentLoaded', function() {
         const loadEl = document.querySelector('#load');
