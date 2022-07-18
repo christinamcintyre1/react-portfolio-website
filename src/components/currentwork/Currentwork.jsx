@@ -15,7 +15,11 @@ const Currentwork = () => {
                 </div>
 
                 <ul className='currentwork__list'>
-                    <li>
+                <li>
+                        <BiCheck className='current__list-icon'/>
+                        <p>Clean Code. Robert C. Martin</p>
+                        </li>
+                        <li>
                         <BiCheck className='current__list-icon'/>
                         <p>Road To React. Robin Weiruch</p>
                         </li>
