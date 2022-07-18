@@ -21,6 +21,10 @@ const Currentwork = () => {
                         </li>
                         <li>
                         <BiCheck className='current__list-icon'/>
+                        <p>Grokking Algorithms. An Illustrated Guide. Aditya Bhargava</p>
+                        </li>
+                        <li>
+                        <BiCheck className='current__list-icon'/>
                         <p>Road To React. Robin Weiruch</p>
                         </li>
                         <li>
