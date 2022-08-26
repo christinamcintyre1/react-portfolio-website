@@ -45,11 +45,15 @@ const Currentwork = () => {
                 <ul className='currentwork__list'>
                     <li>
                         <BiCheck className='current__list-icon'/>
-                        <p>Personal Website Christinamcintyre.com</p>
+                        <p>Personal Website christinamcintyre.com</p>
                         </li>
                         <li>
                         <BiCheck className='current__list-icon'/>
                         <p>GraphBook. Building a Facebook like app with GraphQL and React.</p>
+                        </li>
+                        <li>
+                        <BiCheck className='current__list-icon'/>
+                        <p>MERN Stack application to keep track of the positions and roles I have applied for. </p>
                         </li>
                       
                 </ul>

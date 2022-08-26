@@ -18,15 +18,7 @@ const Experience = () => {
             <li>
               <BiCheck className="experience__details-icon" />
               <div>
-                <h4>HTML</h4>
-                <small className="text-light">Beginner</small>
-              </div>
-            </li>
-
-            <li>
-              <BiCheck className="experience__details-icon" />
-              <div>
-                <h4>CSS</h4>
+                <h4>REACT</h4>
                 <small className="text-light">Beginner</small>
               </div>
             </li>
@@ -38,12 +30,20 @@ const Experience = () => {
                 <small className="text-light">Beginner</small>
               </div>
             </li>
+
+            <li>
+              <BiCheck className="experience__details-icon" />
+              <div>
+                <h4>AWS</h4>
+                <small className="text-light">Beginner</small>
+              </div>
+            </li>
           </ul>
           <ul className="experience__list">
             <li>
               <BiCheck className="experience__details-icon" />
               <div>
-                <h4>REACT</h4>
+                <h4>CSS/HTML</h4>
                 <small className="text-light">Beginner</small>
               </div>
             </li>
@@ -57,7 +57,7 @@ const Experience = () => {
             <li>
               <BiCheck className="experience__details-icon" />
               <div>
-                <h4>STYLED COMPONENTS</h4>
+                <h4>GIT/GITHUB</h4>
                 <small className="text-light">Beginner</small>
               </div>
             </li>
@@ -87,6 +87,14 @@ const Experience = () => {
                 <small className="text-light">Beginner</small>
               </div>
             </li>
+
+            <li>
+              <BiCheck className="experience__details-icon" />
+              <div>
+                <h4>MYSQL</h4>
+                <small className="text-light">Beginner</small>
+              </div>
+            </li>
           </ul>
           <ul className="experience__list">
             <li>
@@ -101,6 +109,13 @@ const Experience = () => {
               <BiCheck className="experience__details-icon" />
               <div>
                 <h4>GRAPHQL</h4>
+                <small className="text-light">Beginner</small>
+              </div>
+            </li>
+            <li>
+              <BiCheck className="experience__details-icon" />
+              <div>
+                <h4>POSTMAN</h4>
                 <small className="text-light">Beginner</small>
               </div>
             </li>
