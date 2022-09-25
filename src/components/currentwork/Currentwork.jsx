@@ -33,7 +33,7 @@ const Currentwork = () => {
                         </li>
                         <li>
                         <BiCheck className='current__list-icon'/>
-                        <p>Burnout: The Secrect to Unlocking the Stress Cycle. Emily Nagoski </p>
+                        <p>The DevOps Handbook. Gene Kim </p>
                         </li>
                 </ul>
         </article>

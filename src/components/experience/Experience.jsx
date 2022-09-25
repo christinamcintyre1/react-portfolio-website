@@ -19,7 +19,7 @@ const Experience = () => {
               <BiCheck className="experience__details-icon" />
               <div>
                 <h4>REACT</h4>
-                <small className="text-light">Beginner</small>
+                
               </div>
             </li>
 
@@ -27,15 +27,15 @@ const Experience = () => {
               <BiCheck className="experience__details-icon" />
               <div>
                 <h4>JAVASCRIPT</h4>
-                <small className="text-light">Beginner</small>
+                
               </div>
             </li>
 
             <li>
               <BiCheck className="experience__details-icon" />
               <div>
-                <h4>AWS</h4>
-                <small className="text-light">Beginner</small>
+                <h4>FORMIK</h4>
+                
               </div>
             </li>
           </ul>
@@ -44,21 +44,21 @@ const Experience = () => {
               <BiCheck className="experience__details-icon" />
               <div>
                 <h4>CSS/HTML</h4>
-                <small className="text-light">Beginner</small>
+                
               </div>
             </li>
             <li>
               <BiCheck className="experience__details-icon" />
               <div>
                 <h4>BOOTSTRAP</h4>
-                <small className="text-light">Beginner</small>
+                
               </div>
             </li>
             <li>
               <BiCheck className="experience__details-icon" />
               <div>
                 <h4>GIT/GITHUB</h4>
-                <small className="text-light">Beginner</small>
+                
               </div>
             </li>
           </ul>
@@ -72,11 +72,18 @@ const Experience = () => {
           </div>
 
           <ul className="experience__list">
+          <li>
+              <BiCheck className="experience__details-icon" />
+              <div>
+                <h4>AWS</h4>
+                
+              </div>
+            </li>
             <li>
               <BiCheck className="experience__details-icon" />
               <div>
                 <h4>MONGODB</h4>
-                <small className="text-light">Beginner</small>
+                
               </div>
             </li>
 
@@ -84,15 +91,15 @@ const Experience = () => {
               <BiCheck className="experience__details-icon" />
               <div>
                 <h4>NODEJS</h4>
-                <small className="text-light">Beginner</small>
+                
               </div>
             </li>
 
             <li>
               <BiCheck className="experience__details-icon" />
               <div>
-                <h4>MYSQL</h4>
-                <small className="text-light">Beginner</small>
+                <h4>TERRAFORM</h4>
+                
               </div>
             </li>
           </ul>
@@ -101,7 +108,7 @@ const Experience = () => {
               <BiCheck className="experience__details-icon" />
               <div>
                 <h4>EXPRESS</h4>
-                <small className="text-light">Beginner</small>
+                
               </div>
             </li>
 
@@ -109,14 +116,14 @@ const Experience = () => {
               <BiCheck className="experience__details-icon" />
               <div>
                 <h4>GRAPHQL</h4>
-                <small className="text-light">Beginner</small>
+                
               </div>
             </li>
             <li>
               <BiCheck className="experience__details-icon" />
               <div>
                 <h4>POSTMAN</h4>
-                <small className="text-light">Beginner</small>
+                
               </div>
             </li>
 
