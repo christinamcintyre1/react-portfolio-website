@@ -126,7 +126,13 @@ const Experience = () => {
                 
               </div>
             </li>
-
+          <li>
+              <BiCheck className="experience__details-icon" />
+              <div>
+                <h4>Nifi</h4>
+                
+              </div>
+            </li>
           </ul>
         </article>
       </div>
